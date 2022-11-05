@@ -19,7 +19,7 @@ canvas {
   
   .header1 {
     font-family: 'Jua';
-    font-size: 7vw;
+    font-size: 4vw;
   }
   
   .header2 {
@@ -46,8 +46,7 @@ canvas {
   
   @media screen and (max-width: 785px) {
     .header1 {
-      font-size: 6vw;
-      padding: -3
+      font-size: 8vw;
     }
     .link1 {
       font-size: 4vw;
