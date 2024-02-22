@@ -16,33 +16,63 @@ canvas {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  p {
+    padding: 0% !important;
+  }
   
   .header1 {
-    font-family: 'Jua';
+    /* font-family: 'Jua'; */
+    font-family: "Gill Sans", sans-serif;
     font-size: 4vw;
+    padding-bottom: 0rem !important;
+    text-align: center;
   }
   
   .header2 {
-    font-family: 'Ubuntu Mono', monospace;
+    /* font-family: 'Ubuntu Mono', monospace; */
+    font-family: "Gill Sans", sans-serif;
     font-size: 1.4vw;
+    text-align: center;
+
   }
   
   .header3 {
-    font-family: 'Ubuntu Mono', monospace;
+    /* font-family: 'Ubuntu Mono', monospace; */
+    font-family: "Gill Sans", sans-serif;
     font-size: 2.2vw;
+    text-align: center;
+
   }
   
   .link1 {
-    font-family: 'Ubuntu Mono', monospace;
+    /* font-family: 'Ubuntu Mono', monospace; */
+    font-family: "Gill Sans", sans-serif;
     font-size: 2.8vw;
     color: inherit;
     margin: 0px 5px 0px 5px;
     transition: 0.5s;
+    
   }
   
   .link1:hover {
     color: #00a0fc;
   }
+
+  .col-md {
+    text-align: center;
+  }
+
+  .container::before {
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: #ffffffc0;
+    z-index: 0;
+  }
+  
   
   @media screen and (max-width: 785px) {
     .header1 {
@@ -73,4 +103,3 @@ canvas {
       font-size: 1.1vw;
     }
   }
-  
